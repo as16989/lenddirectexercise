@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Please input an array of integers:</h1>
+  <h3>Example input: 1,5,8,2,9,3,4</h3>
+  <form method="POST" action="/result">
+    <label for="num_array">Input Below:</label><br>
+    <input type="text" id="num_array" name="num_array" ><br>
+    <button type="submit" id="submit_button">Submit</button>
+  </form> 
+{% endblock %}
